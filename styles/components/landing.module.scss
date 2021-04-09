@@ -1,0 +1,22 @@
+.landing-page {
+  background-image: url('/images/HomeBanner-mockup.png');
+
+  .marketing {
+    background-color: rgb(244, 245, 245);
+    .marketing-cards {
+      top: -45px;
+    }
+
+    @media (max-width: 768px) {
+      .marketing-cards {
+        top: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .main-banner {
+      min-height: 40vh;
+    }
+  }
+}

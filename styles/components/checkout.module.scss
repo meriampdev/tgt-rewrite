@@ -1,0 +1,9 @@
+.checkout-wrapper {
+  grid-template-columns: 60% 40%;
+}
+@media only screen and (max-width: 768px) {
+  .checkout-wrapper {
+    flex-direction: column-reverse;
+    grid-template-columns: unset;
+  }
+}

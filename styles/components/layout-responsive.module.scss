@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+  .app-search {
+    grid-template-columns: 10% 90% !important;
+    .brand {
+      display: none;
+    }
+
+    .brand-logo {
+      display: block !important;
+    }
+
+    .search-bar {
+      align-items: center !important;
+      .navigation {
+        display: none;
+      }
+      .user {
+        #user-account {
+          display: none;
+        }
+        .MuiDivider-root {
+          display: none;
+        }
+      }
+    }
+  }
+}

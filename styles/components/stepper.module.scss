@@ -1,0 +1,11 @@
+.stepper-wrapper {
+  .stepper {
+    .disabled {
+      pointer-events: none;
+      color: gray;
+    }
+  }
+  .content {
+    min-height: 50vh;
+  }
+}
